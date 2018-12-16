@@ -6,9 +6,9 @@ os:
   - windows
 addons:
   firefox: latest
-before_scripts:
+before_script:
   - npm -g i web-ext
-after_scripts:
+script:
   - web-ext run
 branches:
   only: master
