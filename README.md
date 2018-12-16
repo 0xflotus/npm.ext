@@ -1,4 +1,4 @@
-# gh.ext
+# npm.ext
 Search Engine Extension for npmjs.com
 
 # Install in Firefox
