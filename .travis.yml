@@ -9,6 +9,6 @@ addons:
 before_script:
   - npm -g i web-ext
 script:
-  - web-ext run
+  - web-ext build
 branches:
   only: master
