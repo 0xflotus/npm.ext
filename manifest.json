@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "NPM search engine",
+  "description": "Adds a search engine that searches npmjs.com",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "NPM",
+      "search_url": "https://www.npmjs.com/search?q={searchTerms}",
+      "keyword": "npm",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
