@@ -5,4 +5,4 @@ os:
   - linux
   - windows
 addons:
-  firefox: "latest"
+  firefox: latest
