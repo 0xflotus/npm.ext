@@ -6,3 +6,7 @@ os:
   - windows
 addons:
   firefox: latest
+before_scripts:
+  - npm -g i web-ext
+after_scripts:
+  - web-ext run
